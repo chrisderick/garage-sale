@@ -8,13 +8,13 @@
     	<!-- Bootstrap CSS -->
     	<link rel="stylesheet" href="css/bootstrap.min.css">
 
-		<title>KaPOPer</title>
+		<title>GarageSale</title>
 	</head>
 
 	<body>
 		<!-- Barra de Navegação -->
-		<nav class="navbar center navbar-expand-lg navbar-light" style="background-color: #CAF9F4">
-			<a class="navbar-brand" href="index.php">KaPOPer </a>
+		<nav class="navbar center navbar-expand-lg navbar-light" style="background-color: #92f9ba">
+			<a class="navbar-brand" href="index.php">GarageSale </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    		<span class="navbar-toggler-icon"></span>
 			</button>
@@ -24,17 +24,17 @@
 			      <div class="nav-item dropdown">
 			      <a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastrar</a>
 			      	<div class="dropdown-menu" aria-labelledby="DropdownMenu">
-		              <a class="dropdown-item" href="index.php?page=cad-idol">Idol</a>
-		              <a class="dropdown-item" href="index.php?page=cad-grupo">Grupo</a>
-		              <a class="dropdown-item" href="index.php?page=cad-gravadora">Gravadora</a>
+		              <a class="dropdown-item" href="index.php?page=cad-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=cad-cliente">Cliente</a>
+		              <a class="dropdown-item" href="index.php?page=cad-venda">Venda</a>
 		            </div>
 		         </div>	
 			      <div class="nav-item dropdown">
 			      <a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listar</a>
 			      	<div class="dropdown-menu" aria-labelledby="DropdownMenu">
-		              <a class="dropdown-item" href="index.php?page=lis-idol">Idols</a>
-		              <a class="dropdown-item" href="index.php?page=lis-grupo">Grupos</a>
-		              <a class="dropdown-item" href="index.php?page=lis-gravadora">Gravadoras</a>
+		              <a class="dropdown-item" href="index.php?page=lis-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=lis-cliente">Cliente</a>
+		              <a class="dropdown-item" href="index.php?page=lis-venda">Venda</a>
 		            </div>
 		         </div>
     			</div>

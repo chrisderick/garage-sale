@@ -3,52 +3,52 @@
 	$host = 'localhost';
 	$user = 'root';
 	$pass = '';
-	$db = 'kapoper';
+	$db = 'garage-sale';
 
 	$conn = new mysqli($host,$user,$pass,$db);
 
 	//Includes das páginas
 	switch(@$_REQUEST["page"]){
-		//Idol
-		case "cad-idol":
-			include("idol/cadastrar-idol.php");
+		//Item
+		case "cad-item":
+			include("item/cadastrar-item.php");
 		break;
-		case "lis-idol":
-			include("idol/listar-idol.php");
+		case "lis-item":
+			include("item/listar-item.php");
 		break;
-		case "edit-idol":
-			include("idol/editar-idol.php");
+		case "edit-item":
+			include("item/editar-item.php");
 		break;
-		case "sal-idol":
-			include("idol/salvar-idol.php");
-		break;
-
-		//Grupo
-		case "cad-grupo":
-			include("grupo/cadastrar-grupo.php");
-		break;
-		case "lis-grupo":
-			include("grupo/listar-grupo.php");
-		break;
-		case "edit-grupo":
-			include("grupo/editar-grupo.php");
-		break;
-		case "sal-grupo":
-			include("grupo/salvar-grupo.php");
+		case "sal-item":
+			include("item/salvar-item.php");
 		break;
 
-		//Gravadora
-		case "cad-gravadora":
-			include("gravadora/cadastrar-gravadora.php");
+		//Cliente
+		case "cad-cliente":
+			include("cliente/cadastrar-cliente.php");
 		break;
-		case "lis-gravadora":
-			include("gravadora/listar-gravadora.php");
+		case "lis-cliente":
+			include("cliente/listar-cliente.php");
 		break;
-		case "edit-gravadora":
-			include("gravadora/editar-gravadora.php");
+		case "edit-cliente":
+			include("cliente/editar-cliente.php");
 		break;
-		case "sal-gravadora":
-			include("gravadora/salvar-gravadora.php");
+		case "sal-cliente":
+			include("cliente/salvar-cliente.php");
+		break;
+
+		//Venda
+		case "cad-venda":
+			include("venda/cadastrar-venda.php");
+		break;
+		case "lis-venda":
+			include("venda/listar-venda.php");
+		break;
+		case "edit-venda":
+			include("venda/editar-venda.php");
+		break;
+		case "sal-venda":
+			include("venda/salvar-venda.php");
 		break;
 
 		default:
