@@ -1,2 +1,1 @@
-<h1 class="display-1 text-center">Welcome to GarageSale!</h1>
-
+<div class="display-1 text-center">Welcome to GarageSale!</div>

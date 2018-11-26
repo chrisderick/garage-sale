@@ -2,7 +2,7 @@
 	//Conexão com o banco de dados
 	$host = 'localhost';
 	$user = 'root';
-	$pass = '';
+	$pass = 'root';
 	$db = 'garage-sale';
 
 	$conn = new mysqli($host,$user,$pass,$db);

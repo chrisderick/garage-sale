@@ -10,7 +10,19 @@
 			$res = $conn->query($sql);
 
 			if($res==true){
-				print "<br><div class='alert alert-success'>Cadastrado com sucesso!</div>";
+				print "<br><div class='alert alert-success'>Cadastrado com sucesso! Redirecionando<span id='wait'>.</span></div>";
+				?>
+				<script>
+					var dots = window.setInterval( function() {
+					var wait = document.getElementById("wait");
+					if ( wait.innerHTML.length > 3 ) 
+						wait.innerHTML = "";
+					else 
+						wait.innerHTML += ".";
+					}, 100);
+				</script>
+				<?php
+				header("refresh:3;url=index.php?page=lis-venda");
 			}else{
 				print "<br><div class='alert alert-danger'>Não foi possível cadastrar!</div>";
 			}
@@ -23,7 +35,19 @@
             $res = $conn->query($sql);
 
             if($res==true){
-                print "<br><div class='alert alert-success'>Editado com sucesso!</div>";
+                print "<br><div class='alert alert-success'>Editado com sucesso! Redirecionando<span id='wait'>.</span></div>";
+				?>
+				<script>
+					var dots = window.setInterval( function() {
+					var wait = document.getElementById("wait");
+					if ( wait.innerHTML.length > 3 ) 
+						wait.innerHTML = "";
+					else 
+						wait.innerHTML += ".";
+					}, 100);
+				</script>
+				<?php
+				header("refresh:3;url=index.php?page=lis-venda");
             }else{
                 print "<br><div class='alert alert-danger'>Não foi possível editar!</div>";
             }
@@ -34,7 +58,19 @@
             $res = $conn->query($sql);
 
             if($res==true){
-                print "<br><div class='alert alert-success'>Excluído com sucesso!</div>";
+                print "<br><div class='alert alert-success'>Excluído com sucesso! Redirecionando<span id='wait'>.</span></div>";
+				?>
+				<script>
+					var dots = window.setInterval( function() {
+					var wait = document.getElementById("wait");
+					if ( wait.innerHTML.length > 3 ) 
+						wait.innerHTML = "";
+					else 
+						wait.innerHTML += ".";
+					}, 100);
+				</script>
+				<?php
+				header("refresh:3;url=index.php?page=lis-venda");
             }else{
                 print "<br><div class='alert alert-danger'>Não foi possível excluir!</div>";
             }
