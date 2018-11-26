@@ -24,16 +24,16 @@
 			      <div class="nav-item dropdown">
 			      <a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastrar</a>
 			      	<div class="dropdown-menu" aria-labelledby="DropdownMenu">
-                        <a class="dropdown-item" href="index.php?page=cad-cliente">Cliente</a>
-                        <a class="dropdown-item" href="index.php?page=cad-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=cad-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=cad-cliente">Cliente</a>
 		              <a class="dropdown-item" href="index.php?page=cad-venda">Venda</a>
 		            </div>
 		         </div>	
 			      <div class="nav-item dropdown">
 			      <a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listar</a>
 			      	<div class="dropdown-menu" aria-labelledby="DropdownMenu">
-                        <a class="dropdown-item" href="index.php?page=lis-cliente">Cliente</a>
-                        <a class="dropdown-item" href="index.php?page=lis-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=lis-item">Item</a>
+		              <a class="dropdown-item" href="index.php?page=lis-cliente">Cliente</a>
 		              <a class="dropdown-item" href="index.php?page=lis-venda">Venda</a>
 		            </div>
 		         </div>
